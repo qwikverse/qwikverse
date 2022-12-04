@@ -8,11 +8,11 @@ export default component$(() => {
         path: "https://assets7.lottiefiles.com/packages/lf20_5gkEN24YTZ.json",
         },
     });
-    const loading = useStore({
-        options: {
-        path: "https://assets4.lottiefiles.com/datafiles/aba45c7b75d547282b2dbdc97969412b/progress_bar.json",
-        },
-    });
+    // const loading = useStore({
+    //     options: {
+    //     path: "https://assets4.lottiefiles.com/datafiles/aba45c7b75d547282b2dbdc97969412b/progress_bar.json",
+    //     },
+    // });
 
   return (
     <div class="bg-black w-screen h-screen grid justify-items-center place-content-center">
