@@ -5,6 +5,7 @@ import { IconTwitter } from "~/components/icons/IconTwitter";
 import { IconInstagram } from "~/components/icons/IconInstagram";
 import { IconFacebook } from "~/components/icons/IconFacebook";
 import { IconGithub } from "~/components/icons/IconGithub";
+import logoSrc from "~/assets/images/logo.png";
 
 export default component$(() => {
   const links = [
@@ -131,7 +132,15 @@ export default component$(() => {
             </ul>
 
             <div class="text-sm text-gray-700 mr-4 dark:text-slate-400">
-              <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
+            <img
+              src={logoSrc}
+              class="inline-block mr-1"
+              width={28}
+              height={28}
+              alt="Qwik Logo"
+              loading="lazy"
+            />
+              <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(../../../../assets/images/logo.png)]"></span>
               Made by{" "}
               <a
                 class="text-primary-700 hover:underline dark:text-gray-200"
