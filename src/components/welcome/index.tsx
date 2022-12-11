@@ -10,18 +10,20 @@ export default component$(() => {
     });
     const loading = useStore({
         options: {
-        path: "https://assets2.lottiefiles.com/private_files/lf30_l8csvun7.json",
+        path: "https://assets7.lottiefiles.com/packages/lf20_d6619szt.json",
         },
     });
 
   return (
     <div class="w-screen h-screen grid justify-items-center place-content-center">
-        <div class=" w-6/12">
-          <QwikLottie options={astronaut.options} />
-          <div class="w-auto h-auto -mt-2">
-            <QwikLottie options={loading.options} />
+        <div class="w-6/12 relative">
+          <div class="absolute z-5 top-40">
+            <QwikLottie options={astronaut.options} />
           </div>
-          <p class="text-center">Creation in progress...</p>
+          <div class="z-1">
+            <QwikLottie options={loading.options} />
+            <p class="blink-hard text-center -mt-40  text-sky-400">Creation in progress...</p>
+          </div>
       </div>
     </div>
   );

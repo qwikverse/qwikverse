@@ -147,7 +147,7 @@ export default component$(() => {
                 href="https://qwikverse.co/"
               >
                 {" "}
-                Qwikverse
+                <span class="font-bold">Qwikverse</span>
               </a>{" "}
               · All rights reserved.
             </div>
