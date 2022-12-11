@@ -74,7 +74,7 @@ export default component$(() => {
             <div class="col-span-12 lg:col-span-4">
               <div class="mb-2">
                 <Link class="inline-block font-bold text-xl" href={"/"}>
-                  Qwind
+                  Qwikverse
                 </Link>
               </div>
               <div class="text-sm text-gray-600">
