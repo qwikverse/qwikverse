@@ -22,7 +22,7 @@
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik": "0.15.0",
+    "@builder.io/qwik": "^0.15.2",
     "@builder.io/qwik-city": "0.0.128",
     "@esbuild-plugins/node-globals-polyfill": "^0.1.1",
     "@esbuild-plugins/node-modules-polyfill": "^0.1.4",

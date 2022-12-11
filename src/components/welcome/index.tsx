@@ -15,8 +15,8 @@ export default component$(() => {
     });
 
   return (
-    <div class="w-screen h-screen grid justify-items-center place-content-center">
-        <div class="w-6/12 relative">
+    <div class="w-screen h-screen grid justify-items-center place-content-center md:-mt-28 sm:mt-0">
+        <div class="md:w-6/12 sm:w-full relative">
           <div class="absolute z-5 top-40">
             <QwikLottie options={astronaut.options} />
           </div>
