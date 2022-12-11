@@ -56,13 +56,13 @@ export default component$(() => {
   ];
 
   const social = [
-    { label: "Twitter", icon: IconTwitter, href: "#" },
-    { label: "Instagram", icon: IconInstagram, href: "#" },
-    { label: "Facebook", icon: IconFacebook, href: "#" },
+    { label: "Twitter", icon: IconTwitter, href: "https://twitter.com/qwikverse" },
+    { label: "Instagram", icon: IconInstagram, href: "https://instagram.com/qwikverse" },
+    { label: "Facebook", icon: IconFacebook, href: "https://facebook.com/qwikverse" },
     {
       label: "Github",
       icon: IconGithub,
-      href: "https://github.com/onwidget/qwind",
+      href: "https://github.com/qwikverse",
     },
   ];
 
@@ -73,21 +73,21 @@ export default component$(() => {
           <div class="grid grid-cols-12 gap-4 gap-y-8 sm:gap-8 py-8 md:py-12">
             <div class="col-span-12 lg:col-span-4">
               <div class="mb-2">
-                <Link class="inline-block font-bold text-xl" href={"/"}>
+                <Link class="inline-block font-bold text-xl" href={"https://qwikverse.co"}>
                   Qwikverse
                 </Link>
               </div>
               <div class="text-sm text-gray-600">
                 <Link
                   class="text-gray-600 hover:text-gray-700 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
-                  href="#"
+                  href="/terms"
                 >
                   Terms
                 </Link>{" "}
                 ·{" "}
                 <Link
                   class="text-gray-600 hover:text-gray-700 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
-                  href="#"
+                  href="/privacy"
                 >
                   Privacy Policy
                 </Link>

@@ -27,7 +27,7 @@ export default component$(() => {
           <ul class="flex flex-col pt-8 md:pt-0 md:flex-row md:self-center w-full md:w-auto text-xl md:text-base">
             <li class="dropdown">
               <button class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out">
-                Pages
+                About
               </button>
               <ul class="dropdown-menu rounded md:absolute pl-4 md:pl-0 md:hidden font-medium md:bg-white md:min-w-[200px] dark:md:bg-slate-800 drop-shadow-xl">
                 <li>
@@ -61,7 +61,7 @@ export default component$(() => {
                 class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 href={"#"}
               >
-                Resources
+                Examples
               </a>
             </li>
             <li>
@@ -85,7 +85,7 @@ export default component$(() => {
             <div class="hidden items-center md:flex">
               <ToggleTheme />
               <a
-                href="https://github.com/onwidget/qwind"
+                href="https://github.com/qwikverse"
                 class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
                 aria-label="Qwind Github"
               >
