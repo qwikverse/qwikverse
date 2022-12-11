@@ -1,6 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-// import Welcome from "~/components/welcome";
+import Welcome from "~/components/welcome";
 
 import Hero from "~/components/widgets/Hero";
 import Features from "~/components/widgets/Features";
@@ -11,7 +11,7 @@ import CallToAction from "~/components/widgets/CallToAction";
 export default component$(() => {
   return (
     <>
-    {/* <Welcome/> */}
+      <Welcome/>
       <Hero />
       <Features />
       <FAQs />

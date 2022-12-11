@@ -15,13 +15,13 @@ export default component$(() => {
     // });
 
   return (
-    <div class="bg-black w-screen h-screen grid justify-items-center place-content-center">
+    <div class="w-screen h-screen grid justify-items-center place-content-center">
         <div class=" w-6/12">
           <QwikLottie options={astronaut.options} />
             {/* <div class="h-10 -mt-48">
                 {/* <QwikLottie options={loading.options} />
             </div>*/}
-            <p class="text-white text-center">Qwikverse loading...</p> 
+            {/* <p class="text-center">Qwikverse loading...</p>  */}
             
       </div>
     </div>
