@@ -22,8 +22,8 @@
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik": "^0.15.2",
-    "@builder.io/qwik-city": "0.0.128",
+    "@builder.io/qwik": "^0.16.1",
+    "@builder.io/qwik-city": "^0.0.128",
     "@esbuild-plugins/node-globals-polyfill": "^0.1.1",
     "@esbuild-plugins/node-modules-polyfill": "^0.1.4",
     "@types/compression": "^1.7.2",
@@ -50,6 +50,7 @@
     "wrangler": "latest"
   },
   "dependencies": {
+    "@builder.io/sdk-qwik": "^0.0.37",
     "@fontsource/inter": "^4.5.14",
     "qwik-lottie": "^0.1.8",
     "vite-imagetools": "^4.0.11"
